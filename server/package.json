@@ -1,0 +1,27 @@
+{
+  "name": "berlin.oauth2.psd2.test.api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --verbose  ",
+    "start": "node index.js",
+    "startdev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^3.23.3",
+
+    "morgan": "^1.10.0",
+ 
+    "winston": "^3.3.3"
+  }
+
+}
